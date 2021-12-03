@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Comforter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap");
+
+body {
+  background-color: #4f000b;
+  color: #cc9098;
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  color: #cc9098;
+  text-decoration: none;
+  margin: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  font-size: 25px;
+  margin: 50px;
+}
+
+.App {
+  text-align: center;
+}
+
+.navbar {
+  background-color: #cc9098;
+  padding: 25px;
+}
+
+.navbar a {
+  color: #4f000b;
+  font-family: "Comforter", cursive;
+  font-size: 40px;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  margin: 100px;
+}
+
+.all_recipes {
+  margin: 25px;
+}
+
+.all_recipes h1 {
+  font-size: 28px;
+  margin: 50px;
+  margin-bottom: 100px;
+}
+
+.one_recipe {
+  margin: 40px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.formedit {
+  background-color: #cc9098;
+  font-size: 20px;
+  font-weight: bolder;
+  margin-top: 50px;
+  margin-left: 10%;
+  width: 80%;
+  padding: 25px;
+  color: #4f000b;
+  border-radius: 8px;
+}
+
+input {
+  width: 60%;
+  padding: 8px;
+  margin: 15px;
+  font-family: "Montserrat", sans-serif;
+}
+
+button {
+  padding: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  color: aliceblue;
+  background-color: #4f000b;
+}
