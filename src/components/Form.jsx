@@ -20,7 +20,7 @@ export default function Form(props) {
         setSteps(foundRecipe.fields.steps)
       }
     }
-  }, [params.id, props.recipe])
+  }, [props.recipes, params.id])
 
   const handleSubmit = async (e) => {
     e.preventDefault()

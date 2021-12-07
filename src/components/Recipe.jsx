@@ -10,7 +10,7 @@ export default function Recipe(props) {
       return recipe.id === params.id
     })
     setRecipe(foundRecipe)
-  }, [params.id, props.recipe])
+  }, [params.id, props.recipes])
 
 
   return (
